@@ -1,0 +1,16 @@
+﻿Build started 05.11.2014 19:09:04.
+     1>Project "C:\Users\Domi\documents\visual studio 2012\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" on node 2 (Build target(s)).
+     1>ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\CL.exe /c /IC:\OpenCV\opencv\build\x86\vc11\..\..\include /Zi /nologo /W3 /WX- /O2 /Oi /Oy- /GL /D WIN32 /D NDEBUG /D _CONSOLE /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /Gy /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Release\\" /Fd"Release\vc110.pdb" /Gd /TP /analyze- /errorReport:prompt introduction_windows.cpp
+         introduction_windows.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 11.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Domi\documents\visual studio 2012\Projects\ConsoleApplication3\Release\ConsoleApplication3.exe" /INCREMENTAL:NO /NOLOGO /LIBPATH:C:\OpenCV\opencv\build\x86\vc11\lib opencv_core2410.lib opencv_imgproc2410.lib opencv_highgui2410.lib opencv_ml2410.lib opencv_video2410.lib opencv_features2d2410.lib opencv_calib3d2410.lib opencv_objdetect2410.lib opencv_contrib2410.lib opencv_legacy2410.lib opencv_flann2410.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\Domi\documents\visual studio 2012\Projects\ConsoleApplication3\Release\ConsoleApplication3.pdb" /SUBSYSTEM:CONSOLE /OPT:REF /OPT:ICF /LTCG /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Domi\documents\visual studio 2012\Projects\ConsoleApplication3\Release\ConsoleApplication3.lib" /MACHINE:X86 /SAFESEH Release\introduction_windows.obj
+         Generating code
+     1>c:\users\domi\documents\visual studio 2012\projects\consoleapplication3\consoleapplication3\introduction_windows.cpp(33): warning C4700: uninitialized local variable 'choice' used
+         Finished generating code
+         ConsoleApplication3.vcxproj -> C:\Users\Domi\documents\visual studio 2012\Projects\ConsoleApplication3\Release\ConsoleApplication3.exe
+     1>Done Building Project "C:\Users\Domi\documents\visual studio 2012\Projects\ConsoleApplication3\ConsoleApplication3\ConsoleApplication3.vcxproj" (Build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.15
