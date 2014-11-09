@@ -4,7 +4,7 @@ unknownFormsOfFace
 looking for faces in randomness
 
 Project description:
-http://dominikkoller.net/unknownFormsOfFace
+http://dominikkoller.net/UnknownFormsOfFace
 
 This includes the C++ (win), Processing and JavaScript version of the project.
 
