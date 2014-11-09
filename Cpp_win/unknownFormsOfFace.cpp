@@ -15,7 +15,7 @@ void detect( Mat frame );
 
 /** Global variables */
 //this haarcascade produces the few positives, which is good in our case (more time - better quality)
-String face_cascade_name = "haarcascade_frontalface_alt.xml";
+String face_cascade_name = "haarcascade_frontalface_default.xml";
 CascadeClassifier face_cascade;
 String window_name = "Capture - Face detection";
 String directory = "images";
@@ -95,8 +95,8 @@ int main( void )
 void detect( Mat image )
 {
     //-- Detect faces and store in vector<Rect> faces
-	//image, objects out, scaleFactor, minNeighbours, flags, minSize, maxSize
-    face_cascade.detectMultiScale( image, faces, 1.2, 3, 0, Size(10, 10), Size(100, 100));
+	//image, objects out, scaleFactor, minNeighbours, flags, minSize, maxSize 
+    face_cascade.detectMultiScale( image, faces, 1.1, 3, 0, Size(10, 10), Size(100, 100));
 
 	//-- if any faces are found:
 	if(faces.size() > 0)
