@@ -45,7 +45,8 @@ void draw() {
     opencv.loadImage(image);
 
     //look for faces
-    Rectangle[] faces = opencv.detect();
+    //scale, min_neighbours, flags, min_width, min_height
+    Rectangle[] faces = opencv.detect(1.1, 3, 0, 10, 100);
 
     //if any faces are found:
     if (faces.length > 0) {
@@ -71,4 +72,3 @@ void draw() {
 void mousePressed() {
   overwriteConfirmed = true;
 }
-
