@@ -18,6 +18,13 @@ It contains the source file and the compiled version (VS 2012, win32 release)
 OpenCV needs to be installed on the system, including the OpenCV environment variables!
 http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_install.html#windows-installation
 
+vvvv
+--------------------
+45beta33.3 32bit
+Just as tweakable as the C++ version, and it's arguably easier to do so. All you need is vvvv + addonpack.
+This version is, in my opinion, the best compromise between performance, ease to use and tweakability.
+Win only.
+
 Processing
 -------------
 Tested only on win, but should run cross-platform. OpenCV for Processing library must be installed (Sketch -> Import Library -> Add Library -> search for OpenCV -> install)
