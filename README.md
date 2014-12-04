@@ -21,6 +21,7 @@ http://docs.opencv.org/doc/tutorials/introduction/windows_install/windows_instal
 vvvv
 --------------------
 45beta33.3 32bit
+
 Just as tweakable as the C++ version, and it's arguably easier to do so. All you need is vvvv + addonpack.
 This version is, in my opinion, the best compromise between performance, ease to use and tweakability.
 Win only.
